@@ -28,7 +28,7 @@ export default defineConfig({
     viewportHeight: 720,
     pageLoadTimeout: 120000,
     defaultCommandTimeout: 60000,
-    specPattern: "**/*.feature",
+    specPattern: 'cypress/e2e/UI/**/*.feature',
     reporter: "mochawesome",
     reporterOptions: {
       reportDir: "cypress/reports",
