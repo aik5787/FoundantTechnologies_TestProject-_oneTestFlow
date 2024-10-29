@@ -1,0 +1,11 @@
+{
+    "cucumberautocomplete.steps": [
+        "cypress/e2e/UI/**/*.js",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    }
+}
